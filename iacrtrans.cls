@@ -176,7 +176,7 @@
 \RequirePackage[a4paper,hscale=0.65,vscale=0.75,marginratio=1:1,marginparwidth=2.7cm]{geometry}
 \RequirePackage{afterpage}
 % Title fonts: bf+sf
-\usepackage{titlesec}
+\RequirePackage{titlesec}
 \titleformat*{\section}{\sffamily\boldmath}
 \titleformat*{\subsection}{\sffamily\boldmath}
 \titleformat*{\subsubsection}{\sffamily\boldmath}
