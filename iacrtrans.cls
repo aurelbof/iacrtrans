@@ -177,11 +177,11 @@
 \RequirePackage{afterpage}
 % Title fonts: bf+sf
 \RequirePackage{titlesec}
-\titleformat*{\section}{\sffamily\Large\bfseries\boldmath}
-\titleformat*{\subsection}{\sffamily\boldmath}
-\titleformat*{\subsubsection}{\sffamily\boldmath}
-\titleformat*{\paragraph}{\sffamily\boldmath}
-\titleformat*{\subparagraph}{\sffamily\boldmath}
+\titleformat{\section}{\sffamily\Large\bfseries\boldmath}{\thesection}{1em}{}
+\titleformat{\subsection}{\sffamily\large\bfseries\boldmath}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\sffamily\normalsize\bfseries\boldmath}{\thesubsubsection}{1em}{}
+\titleformat{\paragraph}[runin]{\sffamily\normalsize\bfseries\boldmath}{\theparagraph}{1em}{}
+\titleformat{\subparagraph}[runin]{\sffamily\normalsize\bfseries\boldmath}{\thesubparagraph}{1em}{}
 % Also for descriptions
 \renewcommand*\descriptionlabel[1]{\hspace\labelsep
                                    \normalfont\bfseries\sffamily\boldmath #1}
