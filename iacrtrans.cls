@@ -177,7 +177,7 @@
 \RequirePackage{afterpage}
 % Title fonts: bf+sf
 \RequirePackage{titlesec}
-\titleformat*{\section}{\sffamily\boldmath}
+\titleformat*{\section}{\sffamily\Large\bfseries\boldmath}
 \titleformat*{\subsection}{\sffamily\boldmath}
 \titleformat*{\subsubsection}{\sffamily\boldmath}
 \titleformat*{\paragraph}{\sffamily\boldmath}
